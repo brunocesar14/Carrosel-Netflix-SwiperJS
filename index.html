@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bruno Cesar">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Carrosel Netflix</title>
+</head>
+<body>
+    <h1>Netflix</h1>
+    
+    <div class="Netflix">
+        <h2>Filmes de mafia</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/poderoso.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/companheiros.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/drive.jpeg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/infil.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/irlandes.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/mafioso.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/porc.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/pulp.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/scar.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/mafioso.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/porc.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/pulp.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/scar.jpg" alt="move"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+    <div class="Netflix">
+        <h2>Filmes de mafia 2 </h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/poderoso.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/companheiros.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/drive.jpeg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/infil.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/irlandes.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/mafioso.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/porc.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/pulp.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/scar.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/mafioso.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/porc.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/pulp.jpg" alt="move"></div>
+                <div class="swiper-slide"><img src="images/scar.jpg" alt="move"></div>
+            </div>
+            <div class="swiper-button-next1"></div>
+            <div class="swiper-button-prev1"></div>
+        </div>
+    </div>
+    
+    <script>
+        var swiper = new Swiper('.swiper-container',{
+            slidesPerView: 6,
+            spaceBetween: 40,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination:{
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextE1: '.swiper-button-next',
+                prevE1: '.swiper-button-prev',
+            }
+        });
+    </script>
+     
+</body>
+</html>
